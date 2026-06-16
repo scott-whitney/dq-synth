@@ -42,6 +42,9 @@ Defects map one-to-one onto standard observability detection categories:
 ```bash
 pip install -r requirements.txt
 
+# one-command walkthrough: generate, then independently verify (5/5)
+./demo.sh
+
 # generate everything (all defects, 7 daily partitions)
 python -m dq_synth --rows 100000 --batches 7 --out ./out
 

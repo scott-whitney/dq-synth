@@ -3,6 +3,12 @@
 Generate time-partitioned synthetic datasets seeded with **labeled** data-quality
 defects, plus a ground-truth manifest describing exactly what was planted and where.
 
+
+
+https://github.com/user-attachments/assets/3502a39c-cac8-4900-bd68-456a73e160ed
+
+
+
 ## Why this exists
 
 A data-observability platform only delivers value once it's pointed at data and

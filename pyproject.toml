@@ -1,0 +1,13 @@
+[project]
+name = "dq-synth"
+version = "0.1.0"
+description = "Generate time-partitioned synthetic data seeded with labeled data-quality defects, plus a ground-truth manifest."
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.0", "pyarrow>=14.0", "Faker>=24.0"]
+
+[project.scripts]
+dq-synth = "dq_synth.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

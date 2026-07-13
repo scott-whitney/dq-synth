@@ -3,11 +3,11 @@
 Generate time-partitioned synthetic datasets seeded with **labeled** data-quality
 defects, plus a ground-truth manifest describing exactly what was planted and where.
 
-
-
 https://github.com/user-attachments/assets/3502a39c-cac8-4900-bd68-456a73e160ed
 
-
+> **Related:** [`subledger-dbt`](https://github.com/scott-whitney/subledger-dbt)
+> extends this labeled-defect methodology into dbt-native controls — a dbt-core +
+> DuckDB project where each injected defect is caught by a specific dbt test.
 
 ## Why this exists
 
